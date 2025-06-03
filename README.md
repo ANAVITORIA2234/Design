@@ -1,4 +1,4 @@
-🎼 *Projeto de Estudo: Plataforma de Streaming - Spotify*
+🎼 **Projeto de Estudo: Plataforma de Streaming - Spotify**
 1. Introdução
 Com o avanço da tecnologia e da internet, os hábitos de consumo de música mudaram drasticamente. O Spotify surgiu como uma resposta inovadora à pirataria digital e à necessidade de acesso prático e legalizado à música. Criado em 2006 na Suécia por Daniel Ek e Martin Lorentzon, o Spotify revolucionou o mercado fonográfico ao permitir que usuários acessem milhões de faixas de forma legal, instantânea e personalizada.
 
