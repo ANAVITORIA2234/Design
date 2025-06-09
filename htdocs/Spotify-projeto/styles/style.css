@@ -1,0 +1,106 @@
+
+
+
+
+/* Biblioteca e Buscar layout (sem sidebar com links) */
+.biblioteca-container, .buscar-container {
+    display: flex;
+    height: 100vh;
+}
+
+.biblioteca-sidebar, .buscar-sidebar {
+    width: 220px;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.biblioteca-sidebar h1, .buscar-sidebar h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1db954;
+    margin-bottom: 40px;
+}
+
+.biblioteca-main, .buscar-main {
+    flex: 1;
+    padding: 30px 40px;
+    overflow-y: auto;
+}
+
+/* Search form */
+.search-form {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background-color: #282828;
+    color: #fff;
+}
+
+.search-form button {
+    padding: 0 20px;
+    border: none;
+    background-color: #1db954;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #17a44c;
+}
+
+.search-results {
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.search-results li {
+    padding: 8px 0;
+    border-bottom: 1px solid #282828;
+}
+
+.search-results li:last-child {
+    border-bottom: none;
+}
+
+.biblioteca-main img{
+width: 300px;
+}
+
+
+/* Sidebar padrão precisa ter display flex e direção coluna */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* altura total da tela */
+    padding: 20px;
+    background-color: #000;
+}
+
+/* Faz a sidebar ocupar o espaço e empurrar o logo para baixo */
+.sidebar .logo-spotify {
+    margin-top: auto; /* empurra para o fim da coluna */
+    user-select: none;
+}
+
+.logo-spotify img {
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
