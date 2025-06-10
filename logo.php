@@ -3,5 +3,6 @@
 ?>
 
 <div class="logo-spotify">
-    <img src="images/spotify-logo.png" alt="logo-spotify"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Logo do Spotify" class="logo">
+
 </div>

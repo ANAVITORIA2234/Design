@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,17 +27,26 @@
                 autocomplete="off"
             />
             <button type="submit">🔍</button>
-        </form>
+    </form>
+<?php
+// Dados das músicas
+$musicas = [
+['titulo' => 'Ainda Bem', 'artista' => 'Vanessa Da Mata'],
+['titulo' => 'Saudade De Quem Eu Sou', 'artista' => 'Henrique & Juliano'],
+['titulo' => 'Minha Vida', 'artista' => 'Rita Lee'],
+['titulo' => 'Perfume', 'artista' => 'Belo'],
+['titulo' => 'Pink Matter', 'artista' => 'Frank Ocean'],
+['titulo' => 'Andressa', 'artista' => 'Delacruz'],
+['titulo' => 'Minha Essência', 'artista' => 'Thiago Brado'],
+['titulo' => 'Poesia Acústica 7', 'artista' => 'Chris / DK / Ducon / Kevin O Chris / MC Hariel / Negra Li / Vitão'],
+['titulo' => 'O Inesperado', 'artista' => 'Jorge & Mateus'],
+['titulo' => 'Salve', 'artista' => 'Frank Ocean'],
+['titulo' => 'Se Ame Mais', 'artista' => 'Marília Mendonça'],
+['titulo' => 'Todo Sol', 'artista' => 'Mateus & Kauan'],
+['titulo' => 'Um Mês e Pouco', 'artista' => 'Zé Neto & Cristiano'],
+['titulo' => 'Ô queiroz', 'artista' => 'Grupo Revelação'],
+];
 
-        <?php
-        // Exemplo de dados para busca simples — na prática, consultaria DB
-        $musicas = [
-            ['titulo' => 'Imagine', 'artista' => 'John Lennon'],
-            ['titulo' => 'Billie Jean', 'artista' => 'Michael Jackson'],
-            ['titulo' => 'Shape of You', 'artista' => 'Ed Sheeran'],
-            ['titulo' => 'Blinding Lights', 'artista' => 'The Weeknd'],
-            ['titulo' => 'Stay', 'artista' => 'The Kid LAROI & Justin Bieber'],
-        ];
 
         if (isset($_GET['q']) && trim($_GET['q']) !== '') {
             $q = strtolower(trim($_GET['q']));

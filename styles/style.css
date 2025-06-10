@@ -1,7 +1,4 @@
 
-
-
-
 /* Biblioteca e Buscar layout (sem sidebar com links) */
 .biblioteca-container, .buscar-container {
     display: flex;
@@ -87,6 +84,7 @@ width: 300px;
 .sidebar {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100vh; /* altura total da tela */
     padding: 20px;
     background-color: #000;
