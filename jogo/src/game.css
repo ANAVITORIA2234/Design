@@ -1,0 +1,48 @@
+.character-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #444;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .character-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .character-info {
+    margin-bottom: 20px;
+  }
+  
+  .hp-counter {
+    text-align: center;
+  }
+  
+  .hp-counter h2 {
+    margin-bottom: 15px;
+    color: #b30000;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .button-group button {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-group button:hover {
+    background-color: #ddd;
+  }
+  
